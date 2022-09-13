@@ -29,3 +29,9 @@ SELECT * FROM `Usuario` WHERE identificacion>=`150`
 SELECT `apellidos` FROM `Usuario` WHERE apellidos IN ('Vanegas','Cetina')
 
 ![Consulta4](img/Consulta4.png "Consulta4")
+
+O se puede utilizar el operador OR 
+
+SELECT `apellidos` FROM `Usuario` WHERE apellidos='Vanegas' OR apellidos='Cetina'
+
+![Consulta4](img/Consulta4.2.png "Consulta4.2")
