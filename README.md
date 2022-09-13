@@ -47,3 +47,9 @@ SELECT * FROM `Usuario` WHERE identificacion<'110' AND ciudad_nac='Cali'
 SELECT * FROM `Usuario` WHERE nombre LIKE 'A%'
 
 ![Consulta6](img/CONSULTA6.png "Consulta6")
+
+7. Si desea obtener los registros cuyos nombres contengan la letra 'a'
+
+SELECT * FROM `Usuario` WHERE nombre LIKE '%a%'
+
+![Consulta7](img/consulta7.png "Consulta7")
