@@ -67,3 +67,25 @@ SELECT * FROM `Usuario` WHERE nombre LIKE'___a%'
 SELECT * FROM `Usuario` WHERE identificacion BETWEEN '110' AND '150'
 
 ![Consulta9](img/consulta9.png "Consulta9")
+
+## COMANDO DELETE 
+
+10. Para eliminar solamente los registros cuya identificacion sea mayor de 130 
+
+DELETE FROM `Usuario` WHERE identificacion>'130'
+
+![Consulta10](img/consulta10.png "Consulta10")
+![Consulta10.2](img/consulta%2010.2.png "Consulta10.2")
+
+## COMANDO UPDATE
+
+11. Para actualizar la ciudad de nacimiento de Cristian Vanegas, cuya identificacion es 114
+
+UPDATE `Usuario` SET ciudad_nac='Manizales' WHERE identificacion='114'
+
+![Consulta11.2](img/consulta11.png "Consulta11")
+![Consulta11](img/consulta11.2.png "Consulta11.2")
+
+## INNER JOIN
+
+Permite obtener datos de dos o mas tablas. Cuando se realiza la concatenacion de las tablas, no necesariamente se deben mostrar todos los datos de las tablas
