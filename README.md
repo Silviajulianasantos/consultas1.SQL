@@ -41,3 +41,9 @@ SELECT `apellidos` FROM `Usuario` WHERE apellidos='Vanegas' OR apellidos='Cetina
 SELECT * FROM `Usuario` WHERE identificacion<'110' AND ciudad_nac='Cali'
 
 ![Consulta5](img/Consulta5.png "Consulta5")
+
+6. Si se desea obtener los regidtros cuyos nombres empiecen por la letra 'A', se debe utilizar el operador LIKE que utiliza los patrones '%' (todos) y ' ' (caracter)
+
+SELECT * FROM `Usuario` WHERE nombre LIKE 'A%'
+
+![Consulta6](img/CONSULTA6.png "Consulta6")
