@@ -89,3 +89,13 @@ UPDATE `Usuario` SET ciudad_nac='Manizales' WHERE identificacion='114'
 ## INNER JOIN
 
 Permite obtener datos de dos o mas tablas. Cuando se realiza la concatenacion de las tablas, no necesariamente se deben mostrar todos los datos de las tablas
+
+## TABLA PEDIDOS
+
+![Tabla pedidos](img/pedidos.png "Tabla pedidos")
+
+12. Para visualizar los campos identificacion nombre apellidos de la tabla usuario y numero pedido, fecha de compra , fecha de vencimiento y obserbacion de la tabla pedidos, se debe relizar la siguiente insturccion SQL.
+
+SELECT Usuario.identificacion, Usuario.nombre, Usuario.apellido, pedidos.nropedido, pedidos.fechacompra, pedidos.fechavence, pedidos.observacion FROM Usuario INNER JOIN pedidos ON Usuario.identificacion = pedidos.identificacion;
+
+![Consulta12](img/COSNULTA12.png "Consulta12")
